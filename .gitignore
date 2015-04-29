@@ -1,8 +1,45 @@
+*.iml
+overlays
+target
+.idea
+.DS_Store
+socialConfig.properties
+
+*.pydevproject
+.metadata
 .gradle
-build/
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
 
-# Ignore Gradle GUI config
-gradle-app.setting
+# Eclipse Core
+.project
 
-# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
-!gradle-wrapper.jar
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# CDT-specific
+.cproject
+
+# JDT-specific (Eclipse Java Development Tools)
+.classpath
+
+# PDT-specific
+.buildpath
+
+# sbteclipse plugin
+.target
+
+# TeXlipse plugin
+.texlipse
+
+/build
