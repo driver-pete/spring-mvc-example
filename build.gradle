@@ -26,9 +26,7 @@ targetCompatibility = 1.7
 
 dependencies {
     compile("org.springframework.boot:spring-boot-starter-web")
-    // If you uncomment the following, thymeleaf view resolver works fine
-    // getting pages from resources/templates
-    //compile("org.thymeleaf:thymeleaf-spring4")
+    compile("org.apache.tomcat.embed:tomcat-embed-jasper")
     testCompile("junit:junit")
 }
 

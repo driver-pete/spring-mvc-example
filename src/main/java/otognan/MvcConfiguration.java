@@ -18,10 +18,5 @@ public class MvcConfiguration extends WebMvcConfigurerAdapter{
         resolver.setSuffix(".jsp");
         return resolver;
     }
-    
-    @Override
-    public void configureDefaultServletHandling(
-            DefaultServletHandlerConfigurer configurer) {
-        configurer.enable();
-    } 
+
 }
